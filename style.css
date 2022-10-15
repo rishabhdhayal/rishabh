@@ -470,7 +470,7 @@ footer {
 @media only screen and (max-width: 800px) {
   .i_01_h1 {font-size: 36px;}
   .i_01_h2{font-size: 16px;}
-  .index_02_aboutMe{padding: 50px 50px 250px 50px;}
+  .index_02_aboutMe{padding: 80px 50px 250px 50px;}
   .index_03_skills{flex-direction: column; box-shadow: none;}
   .i_03_designer{ width: 100%; box-shadow:0px 2px 2px rgb(163, 163, 163) ;border-radius: 10px; margin-bottom: 40px;}
   .i_03_developer{ width: 100%; box-shadow:0px 0px 4px rgb(163, 163, 163) ;border-radius: 10px; margin-bottom: 40px;}

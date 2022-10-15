@@ -488,3 +488,18 @@ footer {
   .cc_desc{  padding-bottom: 30px; width: 90%;}
   .i_05_heading p{width: 85%;}
 }
+/* -----------------------scroll bar changes------------------------------------ */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7545FF; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #493093; 
+}

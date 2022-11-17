@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  body {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    height: max-content;
+  }
+  /* *******************************************Header navbar---------------------------------------------------- */
+  header {
+    grid-column-start: 2;
+    grid-column-end: 13;
+    /* background-color: rgb(223, 223, 223); */
+    height: 140px;
+    display: flex;
+    align-items: center;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(207, 207, 207); */
+    height: 100px;
+    width: 100%;
+  }
+  .logo img {
+    width: 70px;
+    height: 46px;
+  }
+  .navItems {
+    display: flex;
+    /* background-color: #fff; */
+    align-items: center;
+    font-size: 18px;
+  }
+  .navItems a {
+    text-decoration: none;
+    color: black;
+  }
+  .navWork {
+    padding: 8px 25px;
+  }
+  .navHello {
+    padding: 8px 18px;
+    border: 2px solid #7545ff;
+    color: #7545ff;
+    border-radius: 30px;
+  }
+  .navHello:hover {
+    background-color: #7545ff;
+    color: white;
+  }
+  .title
+  {
+    grid-column-start: 1;
+    grid-column-end: 14;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .title a
+  {
+    position:absolute;
+    left: 10%;
+    
+  }
+  .resume
+  {
+    grid-column-start: 3;
+    grid-column-end: 12;
+    text-align: center;
+    height: 60%;
+    margin: 50px 0px;
+  }
+  .resume div
+  {
+    padding: 40px 20px;
+    background-color: #fff;
+    color: #7545ff;
+    font-weight: 600;
+    font-size: 2rem;
+    /* border: 2px solid #7545ff; */
+  }
+  .resume a{
+    color: #7545ff;
+  }

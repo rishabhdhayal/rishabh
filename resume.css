@@ -88,3 +88,18 @@
   .resume a{
     color: #7545ff;
   }
+/* -----------------------scroll bar changes------------------------------------ */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7545FF; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #493093; 
+}

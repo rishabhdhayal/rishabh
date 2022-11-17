@@ -1,0 +1,165 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+header {
+  width: 100%;
+  /* background-color: rgb(223, 223, 223); */
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(225, 225, 225);
+  /* padding: 0px 100px; */
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: rgb(207, 207, 207); */
+  height: 100px;
+  width: 90%;
+}
+.logo img {
+  width: 70px;
+  height: 46px;
+}
+.navItems {
+  display: flex;
+  /* background-color: #fff; */
+  align-items: center;
+  font-size: 18px;
+}
+.navItems a {
+  text-decoration: none;
+  color: black;
+}
+.navItems {
+  height: 50%;
+}
+form {
+  padding: 50px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(208, 222, 179); */
+  font-size: 28px;
+}
+form h1 {
+  font-size: 2.5rem;
+  width: 70%;
+  text-align: center;
+  font-weight: 500;
+}
+form label {
+  font-size: 28px;
+}
+form input {
+  font-size: 24px;
+  padding: 5px 4px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+.name_email {
+  width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* background-color: rgb(181, 159, 159); */
+  color: #959595;
+}
+.name {
+  margin: 0px 0px;
+}
+.message {
+  /* background-color: rgb(171, 227, 205); */
+  width: 650px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+@media only screen and (max-width: 800px) {
+  .message {
+    width: 80%;
+  }
+  form h1 {
+    width: 90%;
+  }
+  .name_email {
+    width: 80%;
+  }
+  .name {
+    width: 100%;
+  }
+  .email {
+    width: 100%;
+    margin-top: 10px;
+  }
+  form input {
+    width: 100%;
+  }
+}
+.project {
+  margin-top: 10px;
+  width: 100%;
+}
+.project input {
+  width: 100%;
+}
+.message label {
+  align-self: flex-start;
+  color: #959595;
+}
+.message textarea {
+  width: 100%;
+  font-size: 18px;
+  padding: 5px 4px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+
+form button {
+  margin: 50px 0px 0px 30px;
+  font-size: 24px;
+  padding: 5px 30px;
+  border-radius: 20px;
+  border: 2px solid #7545ff;
+  color: #7545ff;
+  background-color: #fff;
+}
+
+form button:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #7545ff;
+}
+/* -----------------------scroll bar changes------------------------------------ */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7545ff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #493093;
+}

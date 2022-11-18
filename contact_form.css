@@ -99,19 +99,28 @@ form input {
   }
   form h1 {
     width: 90%;
+    font-size: 1.5rem;
   }
   .name_email {
     width: 80%;
+    font-size: 1.5rem;
+  }
+  form label
+  {
+    font-size: 1.5rem;
   }
   .name {
     width: 100%;
+    font-size: 1.5rem;
   }
   .email {
     width: 100%;
     margin-top: 10px;
+    font-size: 1.5rem;
   }
   form input {
     width: 100%;
+    font-size: 1.5rem;
   }
 }
 .project {
